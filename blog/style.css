@@ -1,0 +1,194 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+h3 {
+  background-color: gold;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  margin-bottom: 0px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: gold;
+}
+
+.post-content {
+  text-align: center;
+  margin-block: 2%;
+  color: rgb(255, 174, 0);
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.container-comments {
+  margin: 3% 0 3% 5%;
+  background-color: rgba(78, 4, 4, 0.705);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container_comments-form {
+  width: 60%;
+  color: rgb(255, 174, 0);
+}
+
+div.container_comments-form {
+  height: max-content;
+}
+
+div.container_comments-form input,
+div.container_comments-form textarea,
+div.container_comments-form h2 {
+  margin: 0 0 2% 0;
+}
+
+div.container_comments-form label {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: gold;
+}
+
+.container-post-comment {
+  width: 40%;
+  height: max-content;
+}
+
+.comment_author {
+  display: inline-block;
+  color: rgb(255, 174, 0);
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px rgb(0, 0, 0), -5px -5px 10px rgb(0, 0, 0),
+    -5px 5px 10px rgb(0, 0, 0), 6px 5px 10px rgb(0, 0, 0),
+    6px -5px 10px rgb(0, 0, 0);
+}
+
+.comment_creation-date {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  font-weight: 500;
+  font-size: 0.9em;
+  font-style: italic;
+  color: rgb(252, 137, 60);
+}
+
+.comment {
+  color: rgb(255, 174, 0);
+  margin: 5px 0 0 20px;
+}
+
+.btn {
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  font-size: 1em;
+  font-weight: 600;
+}
+.btn-send {
+  background-color: rgb(12, 174, 238);
+  color: rgb(78, 4, 4);
+  cursor: pointer;
+}
+
+.btn-send:hover {
+  transition: color 0.3s ease;
+  color: gold;
+}
+
+.ms-5 {
+  margin-left: 5%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.h-150 {
+  height: 150px;
+}
+
+.error-container {
+  position: relative;
+  width: 80vw;
+  height: 40vh;
+  margin: 30vh auto;
+  background-color: #bb0404;
+  border-radius: 15px;
+}
+
+.error {
+  position: absolute;
+  width: 70%;
+  height: max-content;
+  top: 45%;
+  left: 15%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.error-img {
+  position: absolute;
+  width: 150px;
+  left: 10%;
+  top: 25%;
+}
+
+.last-tickets{
+  background-color: rgba(78, 4, 4, 0.705);
+  display: inline-block;
+  position:static;
+  color: gold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+h1.title{
+    margin-top: 3% ;
+    background-color: rgba(255, 217, 0, 0.568);
+    color:rgb(87, 8, 8);
+    border-radius: 5px;
+    padding: 10px;
+}
+.decoration-none{
+    text-decoration:none;
+    color:gold;   
+}
+
+.w-max-content{
+    width: max-content;
+}
+
+.mx-center{
+    margin:0 auto 0 auto; 
+}
+
+.container-comments>p>em>a{
+    color : rgb(28, 209, 233);
+    margin: 10px 0 0 2%;
+}
+
+.container-comments__link-comment{
+    
+}
